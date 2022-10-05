@@ -1,26 +1,51 @@
 *{
     box-sizing: border-box;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    background-color: rgb(81, 105, 167);
+    padding: 1rem 0.4rem;
+    
+}
+body.list{
+    display: flex
+}
+body .menu{
+    display: flex;
+    justify-content: flex-end
+
 }
 body{
     background-color: rgb(209, 190, 173);
 }
-header, footer{
-    background-color: rgb(81, 105, 167);
-}
+
 body section.a{
     background-color: rgb(208, 157, 114);
     justify-content: space-between;
     display: flex;
-};
-body section.button{
-    background-color: blue;
+    padding: 1rem 0.4rem
 };
 
-.articules{
-    flex-direction:row-reverse
-    
-}
-.container{
+body section.articules{
     display: flex;
+    justify-content: flex-end;
+};
+
+body.logo{
+    display: flex;
+    justify-content: center;
+    padding: 1rem .4rem;
+    height: 10px;
+    width: 5px;
+    text-align:center
 }
+body .button{
+    background-color: rgb(81,105, 167);
+    border: none;
+    color: white;
+    height: 20px;
+    width: 65px;
+};
